@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div class="app">
+      <header>
+        <div class="logo"></div>
+        <select>
+          <option value="serif">Serfi</option>
+        </select>
+        <div class="togle">togle</div>
+      </header>
+      <main>
+        <form>
+          <input type="text" />
+        </form>
+        <section class="word_header">
+          <div class="word_selected">
+            <h1>Keyboard</h1>
+            <p>/'Ki:bc:d/</p>
+          </div>
+          <div class="audio">
+            <button>audio</button>
+          </div>
+        </section>
+        <section class="word_body"></section>
+      </main>
+      <div id="word"></div>
+      <div id="definition"></div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
